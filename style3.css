@@ -1,13 +1,38 @@
-[class *=col-] {
-    background-color: #eee;
-    border: 1px solid #ccc;
-}
 
-[class *=col-] [class *=col-] {
-    background-color: #f36;
-    border: 1px dashed #fff;
-    color: #fff;
-}
 body{
     padding-top: 70px;
+    background-color: white;
 }
+
+
+.carousel{
+    height:420px;
+}
+.carousel .item {
+    height:420px;
+
+}
+
+.item img{
+    width:100%;
+}
+
+.container{
+ text-align: center;
+ background-image: none;
+ background-color: white;
+}
+.row img{
+max-width: 500px;
+}
+#display {
+    font-size:3%;
+    text-align: center;
+    line-height: 150%;
+}
+
+.tab{
+    background-image: none;
+    background-color: white;
+}
+
