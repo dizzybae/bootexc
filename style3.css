@@ -1,12 +1,18 @@
+html {
+    overflow-y: scroll;
+}
 
 body{
     padding-top: 70px;
     background-color: white;
+    overflow:visible;
+    position: absolute;
 }
 
 
 .carousel{
     height:420px;
+    position: relative;
 }
 .carousel .item {
     height:420px;
@@ -36,3 +42,14 @@ max-width: 500px;
     background-color: white;
 }
 
+.feature{
+    padding:30px 0;
+}
+.feature p{
+    font-size:14px;
+    line-height:30px;
+}
+
+.feature h2{
+color: #2c4c58;
+}
