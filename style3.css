@@ -4,23 +4,22 @@ html {
 
 body{
     padding-top: 70px;
-    background-color: white;
-    overflow:visible;
-    position: absolute;
 }
 
 
 .carousel{
-    height:420px;
+    height:30%;
     position: relative;
 }
 .carousel .item {
-    height:420px;
+    height:30%;
 
 }
 
 .item img{
-    width:100%;
+    display:flex;
+    align-self: stretch;
+    margin:0 auto;
 }
 
 .container{
@@ -52,4 +51,22 @@ max-width: 500px;
 
 .feature h2{
 color: #2c4c58;
+}
+
+.passage{
+    margin:0px auto;
+    width:80%;
+}
+
+.passage img{
+    max-width:100%;
+}
+@media(max-width:768px)
+{
+    .carousel{
+        height:330px;
+    }
+    .carousel .item{
+        height:330px;
+    }
 }
