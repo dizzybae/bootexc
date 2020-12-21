@@ -22,8 +22,6 @@ body{
 
 .container{
  text-align: center;
- background-image: none;
- background-color: white;
 }
 .row img{
 max-width: 500px;
@@ -34,15 +32,15 @@ max-width: 500px;
     line-height: 150%;
 }
 
-.tab{
-    background-image: none;
-    background-color: white;
+#contab{
+    margin:20px;
 }
-
 .feature{
     padding:30px 0;
 }
-.feature p{
+.feature {
+    padding-top:20px;
+    padding-left:50px;
     font-size:14px;
     line-height:40px;
 }
@@ -51,13 +49,9 @@ max-width: 500px;
 color: #2c4c58;
 }
 
-.passage{
-    margin:0px auto;
-    width:80%;
-}
 
 .passage img{
-    max-width:100%;
+    max-width:400px;
 }
 @media(max-width:768px)
 {
@@ -67,4 +61,10 @@ color: #2c4c58;
     .carousel .item{
         height:330px;
     }
+}
+
+
+#lefttext{
+    border-right: 1px #ccc dotted;
+    max-height: 2000px;
 }
