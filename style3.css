@@ -8,17 +8,15 @@ body{
 
 
 .carousel{
-    height:30%;
+    height:500px;
     position: relative;
 }
 .carousel .item {
-    height:30%;
+    height:500px;
 
 }
 
 .item img{
-    display:flex;
-    align-self: stretch;
     margin:0 auto;
 }
 
@@ -46,7 +44,7 @@ max-width: 500px;
 }
 .feature p{
     font-size:14px;
-    line-height:30px;
+    line-height:40px;
 }
 
 .feature h2{
